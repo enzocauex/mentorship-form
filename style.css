@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body, input, select, span {
+body, input, select {
     font-family: 'Poppins', sans-serif;
 } 
 
@@ -42,6 +42,8 @@ header h1 {
     line-height: 60px;
 
     color: #FFFFFF;
+    
+    margin-botton: 18px;
 }
 
 header p {
