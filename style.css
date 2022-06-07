@@ -1,10 +1,14 @@
+:root {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, input, select {
+body, input, span {
     font-family: 'Poppins', sans-serif;
 } 
 
@@ -25,40 +29,36 @@ body::before {
 }
 
 .page {
-    width: 750px;
+    width: 75rem;
     margin: 0 auto;
 }
 
 header {
-    width: 417px;
+    width: 41.7rem;
 
-    margin-top: 140px;
+    margin-top: 14rem;
 }
 
 header h1 {
     font-family: 'Staatliches';
     font-weight: 400;
-    font-size: 48px;
-    line-height: 60px;
-
+    font-size: 4.8rem;
+    line-height: 6rem;
     color: #FFFFFF;
-    
-    margin-bottom: 18px;
 }
 
 header p {
-    font-size: 20px;
-    line-height: 30px;
-
+    font-size: 2rem;
+    line-height: 3rem;
     color: #FFFFFF;
 }
 
 form {
-    margin-top: 58px;
+    margin-top: 5.8rem;
     background: #FFFFFF;
     border-radius: 20px 20px 0px 0px;
-    min-height: 300px;
-    padding: 64px;
+    min-height: 30rem;
+    padding: 6.4rem;
 
     display: flex;
     flex-direction: column;
@@ -72,20 +72,20 @@ fieldset {
 .fieldset-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3rem;
 }
 
 .fieldset-wrapper legend {
     font-family: 'Staatliches';
     font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
 
     color: #535971;
 
     width: 100%;
     border-bottom: 1px solid #E6E6F0;
-    padding-bottom: 16px;
+    padding-bottom: 1.6rem;
 }
 
 .input-wrapper {
@@ -94,20 +94,19 @@ fieldset {
 }
 
 .input-wrapper label {
-    font-size: 14px;
-    line-height: 24px;
-
+    font-size: 1.4rem;
+    line-height: 2.4rem;
     color: #4E4958;
 
-    margin-bottom: 8px;
+    margin-bottom: .8rem;
 }
 
 .input-wrapper label span {
-    font-size: 12px;
-    line-height: 20px;
-
+    font-size: 1.2rem;
+    line-height: 2rem;
     color: #C1BCCC;
-    margin-left: 10px;
+
+    margin-left: 1rem;
 }
 
 .input-wrapper input,
@@ -116,18 +115,17 @@ fieldset {
     border: 1px solid #E6E6F0;
     border-radius: 8px;
 
-    height: 56px;
-    padding: 0 24px;
+    height: 5.6rem;
+    padding: 0 2.4rem;
 
-    font-size: 16px;
-    line-height: 26px;
-
+    font-size: 1.6rem;
+    line-height: 2.6rem;
     color: #6c6a71;
 }
 
 .col-2 {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .col-2 div {
@@ -136,7 +134,7 @@ fieldset {
 
 .col-3 {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .col-3 > div:nth-child(1) {
@@ -147,8 +145,8 @@ fieldset {
     font-family: 'Staatliches';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 2rem;
+    line-height: 3.4rem;
     color: #535971;
 }
 
@@ -156,11 +154,11 @@ footer {
     background: #535971;
     border-radius: 0px 0px 20px 20px;
 
-    height: 160px;
+    height: 16rem;
     display: flex;
     flex-direction: column;
-    padding: 52px 71px;
-    margin-bottom: 100px;
+    padding: 5.2rem 7.1rem;
+    margin-bottom: 10rem;
 }
 
 footer .button {
@@ -168,13 +166,13 @@ footer .button {
     border-radius: 20px;
     border: none;
 
-    width: 608px;
-    height: 55.65px;
+    width: 60.8rem;
+    height: 5.6rem;
     margin: auto;
 
     font-family: 'Staatliches';
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 2rem;
+    line-height: 2.6rem;
     color: #FFFFFF;
 }
 
